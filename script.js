@@ -35,4 +35,18 @@ let lunch;
 lunch = breakfast
 console.log(lunch);
 console.log(breakfast);
-// Both varables hold the same value
+// Both variables hold the same value
+//Above statements log the VALUES stored in VARIABLES named breakfast and lunch
+//Below statement log the literal strong "lunch"
+console.log("lunch")
+
+//MATH OPERATORS
+let score = 0;
+score = score + 5;
+console.log(score);
+score = score -10;
+console.log(score);
+score = score * (-3);
+console.log(score);
+score = score / 5;
+console.log(score);
