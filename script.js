@@ -50,3 +50,49 @@ score = score * (-3);
 console.log(score);
 score = score / 5;
 console.log(score);
+
+//Can combine operators, evalution follows PEMDAS
+score = (score * 3 / 7 -4 + (-6)) ** 2;
+console.log(score);
+
+// STRING CONCATENATION (merging with the PLUS SIGN)
+//String LITERALS are indicated with "QUOTES"
+let greeting = "Herro " + "Kitten" ; 
+console.log(greeting);
+
+//Can combine String Literals with VARIABLES
+let username = "kitty_kitty_meow"
+console.log("Welcome, \n" + username + "! 😽");
+
+//Numbers got converted to Strings if combined
+console.log(4 + 5); // 9 (did addition - actually did out the math)
+console.log("4" + "5"); // 45 (concatenate, not math)
+console.log(4 + '5'); 
+
+// SHORTCUT OPERATORS (Increment/Decrement)
+let counter = 0;
+counter = counter + 1 // LONG WAY
+counter++; // SHORTCUT to increase by one 
+console.log("Count is " + counter);
+counter--;
+console.log("Count is " + counter);
+
+/* FUNCTIONS: 
+   Reusable sets of code statements that perform a specific task or process
+*/
+
+// console.log is a FUNCTION that we've used 
+// TASK: display data in the console 
+console.log("I just used a func!")
+
+// DECLARE (create) your own function 
+function skincare() {
+    //STATMENTS (actions) to execute for this routine
+    console.log("1. Cleanse");
+    console.log("2. Use acne wash");
+    console.log("3. Use soft wash");
+    console.log("4. Use acne cream");
+}
+// CALL the function to be able to use it! 
+skincare();
+skincare(); // can run the function again
